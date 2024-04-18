@@ -1,0 +1,137 @@
+.hero {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px 40px 5px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+.logo h1 {
+  font-family: "Poppins";
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 66px;
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 184, 0, 1);
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.ul a {
+  text-decoration: none;
+  color: rgba(255, 184, 0, 1);
+  border: 3px solid transparent;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  padding: 0px 15px;
+}
+
+.ul a:active {
+  border: 3px solid rgba(255, 184, 0, 1);
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  position: relative;
+}
+
+.left {
+  width: 50%;
+  z-index: 2;
+}
+
+.left h1 {
+  font-family: Poppins;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  text-align: left;
+}
+
+.left p {
+  font-family: Poppins;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.left button {
+  font-size: 32px;
+  font-weight: 700;
+  background: transparent;
+  color: rgba(255, 184, 0, 1);
+  padding: 2px 15px;
+  border: 3px solid rgba(255, 184, 0, 1);
+  border-radius: 10px;
+}
+.right {
+  z-index: 2;
+}
+
+.right img {
+  width: 100%;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 183, 0, 0.473);
+  z-index: 1;
+}
+
+.circle1 {
+  width: 450px;
+  height: 450px;
+  left: 50%;
+  top: 100px;
+  transform: translateX(-50%);
+}
+
+.circle2 {
+  width: 352px;
+  height: 352px;
+  left: 50%;
+  top: 150px;
+  transform: translateX(-50%);
+}
+
+.circle3 {
+  width: 254px;
+  height: 254px;
+  left: 50%;
+  top: 200px;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 720px) {
+}
