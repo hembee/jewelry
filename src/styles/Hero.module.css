@@ -62,7 +62,7 @@
 }
 
 .left {
-  width: 50%;
+  width: 55%;
   z-index: 2;
 }
 
@@ -71,18 +71,19 @@
   color: #fff;
   font-size: 64px;
   font-weight: 700;
-  line-height: 96px;
+  line-height: 76px;
   text-align: left;
+  margin-bottom: 25px;
 }
 
 .left p {
   font-family: Poppins;
   color: #fff;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 400;
   line-height: 36px;
   text-align: left;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .left button {
@@ -105,8 +106,7 @@
 .circle {
   position: absolute;
   border-radius: 50%;
-  background-color: transparent;
-  border: 5px solid rgba(255, 184, 0, 1);
+  background-color: rgba(255, 183, 0, 0.445);
   z-index: 1;
 }
 

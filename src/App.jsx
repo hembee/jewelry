@@ -1,5 +1,6 @@
 import "./App.css";
 import Hero from "./components/Hero";
+import Offer from "./components/Offer";
 import Sect from "./components/Sect";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Hero />
       <Sect />
+      <Offer />
     </div>
   );
 }

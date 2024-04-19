@@ -1,0 +1,29 @@
+.Offer {
+  padding: 50px;
+}
+
+.special {
+  text-align: center;
+}
+
+.line {
+  border-top: 5px solid black;
+  margin: 0 auto; /* Centers the line */
+  width: 60%; /* Adjust width as needed */
+}
+
+.content {
+  display: inline-block;
+  background-color: white; /* Optional, to cover the line */
+  padding: 0 10px;
+  color: black;
+  font-size: larger;
+  position: relative;
+  top: -25px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.content span {
+  margin: 0 25px;
+}
