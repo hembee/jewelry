@@ -7,7 +7,7 @@ const Sect = () => {
       <div className={styles.sect1}>
         <div>
           <p>Sale all item</p>
-          <h2>Men Jewelries</h2>
+          <h3>Men Jewelries</h3>
           <button>Shop Now</button>
         </div>
         <>
@@ -17,7 +17,7 @@ const Sect = () => {
       <div className={styles.sect2}>
         <div>
           <p>Sale all item</p>
-          <h2>Women Jewelries</h2>
+          <h3>Women Jewelries</h3>
           <button>Shop Now</button>
         </div>
         <>

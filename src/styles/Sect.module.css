@@ -12,7 +12,7 @@
   flex-direction: row;
   align-items: center;
   border-radius: 10px;
-  padding: 35px 10px;
+  padding: 35px 15px;
   justify-content: space-evenly;
   background: rgba(163, 209, 105, 0.7);
   box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
@@ -30,9 +30,12 @@
 .sect2 button {
   border: 3px solid black;
   background-color: transparent;
-  padding: 3px 8px;
+  padding: 5px 8px;
   border-radius: 5px;
   margin-top: 20px;
+  font-weight: 800;
+  font-size: x-small;
+  color: #000;
 }
 
 .sect2 {
@@ -41,8 +44,17 @@
   flex-direction: row;
   align-items: center;
   border-radius: 10px;
-  padding: 35px 10px;
+  padding: 35px 15px;
   justify-content: space-evenly;
   background: rgba(255, 248, 90, 0.7);
-  box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 8px 8px 4px 0px rgba(31, 6, 6, 0.25);
+}
+
+h3{
+  font-weight: 900;
+  font-size: larger;
+}
+
+p{
+  font-size: 14px;
 }
